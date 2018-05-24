@@ -28,7 +28,7 @@ public class LibraryService {
 	}
 	
 	/*
-	 * This method will Add/Update single Contact
+	 * This method will Add Book into Library System
 	 */
 	
 	public ResponseBean addBook(BookBean bookBean) {
@@ -49,10 +49,16 @@ public class LibraryService {
 		return bookList;
 	}
 	
+	/*
+	 * This Method will return List of Library Books matching Author Name
+	 */
 	public List<BookBean> getAllBooksByAuthor(String name){
 		return bookList.stream().filter(t -> t.getAuthor().equalsIgnoreCase(name)).collect(Collectors.toList());
 	}
 	
+	/*
+	 * This Method will return List of Library Books by partial matching Book Title
+	 */
 	public List<BookBean> getAllBooksByTitleMatch(String title){
 		return bookList.stream().filter(t -> t.getTitle().toUpperCase().contains(title.toUpperCase())).collect(Collectors.toList());
 	}
