@@ -1,0 +1,5 @@
+com\ncs\library\bean\BookBean.class
+com\ncs\library\bean\ResponseBean.class
+com\ncs\library\service\LibraryService.class
+com\ncs\library\restapi\RestAPIController.class
+com\ncs\library\LibraryAPI.class

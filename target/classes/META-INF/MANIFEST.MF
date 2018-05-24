@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: Library NCS RESTful Web Service
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Huzaifa
+Implementation-Vendor-Id: com.ncs.libraryservice
+Build-Jdk: 1.8.0_101
+Implementation-URL: http://projects.spring.io/spring-boot/Library-Codi
+ ng-Exercise/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
